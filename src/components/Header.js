@@ -7,7 +7,7 @@ const Header = () => {
     <header className={classes.header}>
       <h1>Redux Auth</h1>
       {console.log(auth, "___ www")}
-      {!auth && (
+      {auth && (
         <nav>
           <ul>
             <li>
